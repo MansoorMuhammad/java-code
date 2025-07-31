@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ForEachLoopInJAva {
+public class CH08_ForEachLoopInJAva {
     public static void main(String[] args) {
         Scanner forInp = new Scanner(System.in);
 //        int [] marks = {78,56,78,88,89 };

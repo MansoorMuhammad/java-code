@@ -1,4 +1,4 @@
-public class Multi_D_Arrays {
+public class CH_08Multi_D_Arrays {
     public static void main(String[] args) {
 //        method 1
 //        int [][] arrayName = new int[2][3];
