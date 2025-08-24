@@ -2,6 +2,7 @@ package com.company;
 
 interface biCycle{
     int a = 45;
+    public int x = 45;
     void applyBrake(int decrement);
     void speedUp(int increment);
 }
@@ -11,6 +12,7 @@ interface eCycle{
     void Beamer();
 }
 class myCycle implements biCycle , eCycle{
+    public int x = 67;
 
    public void applyBrake(int decrement){
         System.out.println("Applying brake.....");
@@ -36,6 +38,7 @@ public class CH14_InterfacesInJava {
         // if i do
 //        cycle.a = 454; // this is restricted in java bcz it is final in Interface
         System.out.println("The value of a is: "  + cycle.a);
+        System.out.println("The value of x is: "  + cycle.x);
 
     }
 }
